@@ -17,7 +17,7 @@ ex:
 
     Other possible values: `view_servers`, `view_domains`
         
-- redirection to thw workspaces' root of the default domain
+- redirection to the workspaces' root of the default domain
 
         CustomStartupHelper.viewOrPath=/defaut-domain/workspaces
         
