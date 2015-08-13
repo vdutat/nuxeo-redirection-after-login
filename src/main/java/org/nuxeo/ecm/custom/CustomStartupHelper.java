@@ -3,7 +3,6 @@ package org.nuxeo.ecm.custom;
 import org.nuxeo.ecm.core.api.ClientException;
 import org.nuxeo.ecm.core.api.NuxeoPrincipal;
 import org.nuxeo.ecm.core.api.PathRef;
-import org.nuxeo.ecm.webapp.dashboard.DashboardNavigationHelper;
 import org.nuxeo.ecm.webapp.helpers.StartupHelper;
 import org.nuxeo.runtime.api.Framework;
 import org.apache.commons.logging.Log;
@@ -19,12 +18,6 @@ import org.jboss.seam.annotations.Scope;
 public class CustomStartupHelper extends StartupHelper {
 
     protected static final String HOME_VIEW = "view_home";
-
-//    @In(create = true)
-//    protected DashboardNavigationHelper dashboardNavigationHelper;
-
-    @In(create = true)
-    protected NuxeoPrincipal currentUser;
 
     private static final long serialVersionUID = 1L;
 
