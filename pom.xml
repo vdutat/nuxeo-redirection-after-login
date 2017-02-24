@@ -9,7 +9,7 @@
   </parent>
   <groupId>org.nuxeo.ecm</groupId>
   <artifactId>nuxeo-redirection-after-login</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <name>nuxeo-redirection-after-login</name>
   <description/>
   <dependencies>
